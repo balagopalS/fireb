@@ -1,0 +1,164 @@
+.App {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  height: 80px;
+  background-color: #8f3985;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navbar .links {
+  text-align: center;
+  margin-right: 50px;
+}
+
+.links a {
+  color: #efd9ce;
+  text-decoration: none;
+  border-bottom: 3px solid #cea2ac;
+  padding-bottom: 2px;
+  margin: 10px;
+}
+
+.navbar .user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.user p {
+  font-size: 15px;
+  margin-right: 10px;
+  color: #cea2ac;
+}
+.user img {
+  font-size: 15px;
+  border-radius: 50%;
+}
+
+.logout {
+  transform: translateX(20px);
+  background-color: #a675a1;
+  color: aliceblue;
+}
+button {
+  display: inline-block;
+  border: none;
+  padding: 0.7rem 1.7rem;
+  margin: 0;
+  text-decoration: none;
+  background: #a675a1;
+  color: aliceblue;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 1;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  border-radius: 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+button:hover,
+button:focus {
+  background: #8f3985;
+  color: aliceblue;
+}
+
+button:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
+button:active {
+  transform: scale(0.99);
+}
+
+.userName {
+  font-style: italic;
+  color: black;
+}
+
+input,
+textarea {
+  font-family: "Nunito", sans-serif;
+}
+
+.create-post {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+form {
+  margin-top: 50px;
+  padding: 30px 20px;
+  width: 320px;
+  border-radius: 7px;
+  background-color: white;
+  backdrop-filter: blur(5px);
+  background-color: #8f3985;
+  overflow: hidden;
+}
+
+input,
+textarea {
+  padding: 8px 10px;
+  margin: 3px 8px 16px 8px;
+  background-color: rgba(222, 239, 248, 0.877);
+  border: 0px transparent;
+  border-radius: 5px;
+  color: black;
+  font-size: 16px;
+  z-index: 1;
+}
+
+/* .submitForm:hover {
+  cursor: pointer;
+  background-color: #cea2ac;
+} */
+.submitForm {
+  display: inline-block;
+  border: none;
+  padding: 0.7rem 1.7rem;
+  margin: 0;
+  text-decoration: none;
+  background: #0f0507;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 1;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  border-radius: 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.submitForm:hover,
+.submitForm:focus {
+  background: #a675a1;
+  color: #0f0507;
+}
+
+.submitForm:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
+.submitForm:active {
+  transform: scale(0.99);
+}
